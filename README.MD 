@@ -1,0 +1,9 @@
+# AI Tools Hub — by Hemant
+
+A clean dark-mode static website listing AI tools with search, category filters, and save feature. Includes Hemant’s portfolio & contact form (demo).
+
+## 🚀 Deployment (GitHub Pages)
+1. Create a new public repo named `AI-Tools-Hub` on GitHub.
+2. Upload all these files (keep folder structure).
+3. Go to **Settings → Pages → Source → main branch / root → Save**.
+4. Wait a few seconds — your live link will be:
