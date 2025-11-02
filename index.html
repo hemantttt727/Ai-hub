@@ -1,0 +1,77 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Tools Hub — by Hemant</title>
+  <meta name="description" content="Explore free AI tools and Hemant's portfolio in a clean dark hub." />
+  <meta property="og:title" content="AI Tools Hub — by Hemant" />
+  <meta property="og:description" content="Discover free AI tools and projects." />
+  <meta property="og:type" content="website" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo.svg" alt="logo" class="logo" />
+    <h1>AI Tools Hub</h1>
+    <p class="tagline">By Hemant — Discover, Save & Explore Smart Tools</p>
+  </header>
+
+  <section class="hero">
+    <h2>Find the best free AI tools</h2>
+    <button id="exploreBtn">Explore Tools</button>
+  </section>
+
+  <main id="toolsSection">
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Search tools..." aria-label="Search tools" />
+      <div id="categories"></div>
+    </div>
+
+    <div class="tools-grid" id="toolsGrid"></div>
+
+    <h3>Your Saved Tools</h3>
+    <div class="tools-grid" id="savedTools"></div>
+  </main>
+
+  <section class="portfolio">
+    <h2>Projects by Hemant</h2>
+    <div class="portfolio-grid">
+      <div class="project-card">
+        <h3>Chat Fix</h3>
+        <p>Gen-Z themed chat & friend app concept with maps and voice chat.</p>
+        <a href="#" target="_blank">View</a>
+      </div>
+      <div class="project-card">
+        <h3>Couples Proposal Site</h3>
+        <p>Creative proposal website made as a digital surprise.</p>
+        <a href="#" target="_blank">View</a>
+      </div>
+      <div class="project-card">
+        <h3>AI Tools Hub</h3>
+        <p>This very website — directory of best AI tools.</p>
+        <a href="#">View</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <form id="contactForm" novalidate>
+      <input type="text" id="name" placeholder="Name" aria-label="Name" required />
+      <input type="email" id="email" placeholder="Email" aria-label="Email" required />
+      <textarea id="message" placeholder="Message" aria-label="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formFeedback" class="feedback"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Hemant. Built with ❤️ using HTML, CSS & JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
