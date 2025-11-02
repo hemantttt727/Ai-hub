@@ -1,0 +1,14 @@
+[
+  {"id":"1","name":"ChatGPT","url":"https://chat.openai.com","category":"Writing","shortDescription":"Advanced conversational AI by OpenAI.","tags":["AI","Chat","Writing"]},
+  {"id":"2","name":"Midjourney","url":"https://midjourney.com","category":"Image","shortDescription":"AI image generation tool.","tags":["Image","Art","AI"]},
+  {"id":"3","name":"RunwayML","url":"https://runwayml.com","category":"Video","shortDescription":"AI video editing made easy.","tags":["Video","Editing"]},
+  {"id":"4","name":"GitHub Copilot","url":"https://github.com/features/copilot","category":"Code","shortDescription":"AI coding assistant.","tags":["Code","AI"]},
+  {"id":"5","name":"Canva Magic Write","url":"https://canva.com","category":"Writing","shortDescription":"AI writing inside Canva.","tags":["Writing","Design"]},
+  {"id":"6","name":"Pika Labs","url":"https://pika.art","category":"Video","shortDescription":"Generate videos from text.","tags":["AI","Video"]},
+  {"id":"7","name":"Remove.bg","url":"https://remove.bg","category":"Image","shortDescription":"Remove background instantly.","tags":["Image","Photo"]},
+  {"id":"8","name":"Leonardo.ai","url":"https://leonardo.ai","category":"Image","shortDescription":"Generate high-quality art with AI.","tags":["Art","AI"]},
+  {"id":"9","name":"Blackbox AI","url":"https://www.useblackbox.io","category":"Code","shortDescription":"Code autocompletion for developers.","tags":["Code","Dev"]},
+  {"id":"10","name":"Suno.ai","url":"https://suno.ai","category":"Audio","shortDescription":"AI music generation.","tags":["Audio","Music"]},
+  {"id":"11","name":"Gamma.app","url":"https://gamma.app","category":"Writing","shortDescription":"AI presentation maker.","tags":["Slides","Writing"]},
+  {"id":"12","name":"Hugging Face","url":"https://huggingface.co","category":"Code","shortDescription":"AI models and datasets hub.","tags":["AI","Models"]}
+]
